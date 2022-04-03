@@ -1,4 +1,4 @@
-p h o t o r a m a 
+p h o t o r a m a
 ====================
 
 ![photorama](https://raw.githubusercontent.com/sunbliss/photorama/gh-pages/photorama_thumb.gif)
@@ -9,7 +9,7 @@ p h o t o r a m a
 
 ----------
 
-A theme for **jekyll**. 
+A theme for **jekyll**.
 
 Created for gh-pages (project page).
 
@@ -26,17 +26,17 @@ It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-bl
 
 ### Version 2.1 (3/22/2017)
 
-* Fixed script loading. 
+* Fixed script loading.
 * Fixed padding bottom for the navbar toggle menu.
 
 
 ### Version 2.0 (2/4/2017)
 
-* HTTPS is now enforced. 
+* HTTPS is now enforced.
 
 ~~**Custom Domains are not supported.**~~
 
-~~For the time being, the only way to apply a custom domain name is by removing HTTPS as of the previous version. 
+~~For the time being, the only way to apply a custom domain name is by removing HTTPS as of the previous version.
 Hoping Github developers will give its users the ability to add a custom domain served under security.~~
 
 ### Version 1.2 (1/31/2017)
@@ -70,7 +70,7 @@ The **BASEURL** should say `/repositoryname`
   - JOURNAL: `"https://yourusername.github.io/repositoryname/journal/"`
   - ABOUT: `"https://yourusername.github.io/repositoryname/about/`"
 
-If there are problems with loading assets like CSS files and images, make sure that both **URL** and **BASEURL** are set correctly!!! 
+If there are problems with loading assets like CSS files and images, make sure that both **URL** and **BASEURL** are set correctly!!!
 
 ----------
 
@@ -90,17 +90,17 @@ Go to your domain name registrar and add a CNAME record pointing your domain to 
 ----------
 
 Usage
-============ 
+============
 
 ###Quick Start
 
-1. [Fork this repository](https://github.com/sunbliss/photorama/fork) to get started. 
+1. [Fork this repository](https://github.com/sunbliss/photorama/fork) to get started.
 2. Go to `https://github.com/yourusername/photorama/settings`
 3. Rename the repository to your new project, e.g. *myphotoblog*
-2. Create a new branch called `gh-pages` in your repository. 
+2. Create a new branch called `gh-pages` in your repository.
 3. Go to the branches directory at `https://github.com/yourusername/repositoryname/branches` and *change* **default branch** to **gh-pages**.
-4. Delete **master** branch. 
-3. GitHub will build your site automatically and publish it at `https://yourusername.github.io/repositoryname/`.  
+4. Delete **master** branch.
+3. GitHub will build your site automatically and publish it at `https://yourusername.github.io/repositoryname/`.
 
 ----------
 
@@ -131,7 +131,7 @@ If you want to use the matching **NEWSLETTER** template, you must always create 
 
 ----------
 
-**TAGS** and **CATEGORIES** of the posts 
+**TAGS** and **CATEGORIES** of the posts
 
 When you add a tag or a category name in the front matter of a post, don't forget to add the responding markdown files in /journal/tag/ folder and in /journal/category folder, so they can always render when browsing the journal or searching in the respective page.
 
