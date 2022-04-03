@@ -2,7 +2,7 @@
 title: Christina Fraij - Personal Website
 email: "cfraij91@gmail.com"
 description: ""
-url: "https://www.cfraij.com"
+url: "https://swordfish444.github.io/cfraij.com"
 baseurl: "/"
 facebook_username: "https://m.facebook.com/christina.fraij"
 twitter_username: "https://twitter.com/cfraij"
@@ -36,9 +36,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://www.cfraij.com/gallery/"
-  - JOURNAL: "https://www.cfraij.com/journal/"
-  - ABOUT: "https://www.cfraij.com/about/"
+  - GALLERY: "https://swordfish444.github.io/cfraij.com/gallery/"
+  - JOURNAL: "https://swordfish444.github.io/cfraij.com/journal/"
+  - ABOUT: "https://swordfish444.github.io/cfraij.com/about/"
 
 # All translation keys
 translations:
