@@ -1,10 +1,10 @@
 {
-  "name": "photorama",
-  "description": "Photo Journal",
+  "name": "cfraij.com",
+  "description": "Christina Fraij personal website",
   "main": "index.html",
   "moduleType": [],
   "authors": [
-    "Anna Prigkipaki"
+    "Skylar Graika"
   ],
   "license": "Apache-2.0",
   "homepage": "",
