@@ -1,0 +1,12 @@
+
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    command: bundle exec jekyll serve --host 0.0.0.0 --port 4000 --trace
+    volumes:
+      - .:/var/app:cached
+    ports:
+      - "4000:4000"
