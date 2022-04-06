@@ -1,21 +1,21 @@
 {
-  "name": "photorama",
+  "name": "cfraij",
   "version": "1.0.0",
-  "description": "Theme by [Start Bootstrap](http://startbootstrap.com/).",
+  "description": "Christina Fraij personal website.",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sunbliss/photorama.git"
+    "url": "https://github.com/swordfish444/cfraij.com.git"
   },
-  "author": "Anna Prigkipaki",
+  "author": "Skylar Graika",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/sunbliss/photorama/issues"
+    "url": "https://github.com/swordfish444/cfraij.com/issues"
   },
-  "homepage": "http://sunbliss.github.io",
+  "homepage": "https://cfraij.com/",
   "dependencies": {
     "searchkit": "^0.7.0"
   }
