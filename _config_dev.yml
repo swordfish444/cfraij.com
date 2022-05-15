@@ -2,7 +2,7 @@
 title: Christina Fraij - Personal Website
 email: "cfraij91@gmail.com"
 description: ""
-url: "https://www.cfraij.com"
+url: "http://localhost:4000"
 baseurl: "/"
 facebook_username: "https://m.facebook.com/christina.fraij"
 twitter_username: "https://twitter.com/cfraij"
@@ -36,10 +36,10 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "/gallery/"
-  - JOURNAL: "/journal/"
-  - ABOUT: "/about/"
-  - TEST: "/test/"
+  - GALLERY: "http://localhost:4000/gallery/"
+  - JOURNAL: "http://localhost:4000/journal/"
+  - ABOUT: "http://localhost:4000/about/"
+  - TEST: "http://localhost:4000/test/"
 
 # All translation keys
 translations:
