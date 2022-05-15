@@ -1,6 +1,12 @@
-_site
 node_modules
-.jekyll-cache/*
 DS_Store
 
-.jekyll-cache/**/*
+
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+.bundle/
+vendor/
+
+_site/
