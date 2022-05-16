@@ -5,8 +5,9 @@ services:
       context: ./
       dockerfile: Dockerfile
     restart: unless-stopped
-    command: bundle exec jekyll serve --config _config_dev.yml --host 0.0.0.0 --port 4000 --trace --livereload --force_polling
+    command: bundle exec jekyll serve --config _config_dev.yml --host 0.0.0.0 --port 4000 --trace --livereload --livereload-port 8080 --force_polling
     volumes:
       - .:/var/app
     ports:
       - "4000:4000"
+      - "8080:8080"

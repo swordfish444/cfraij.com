@@ -16,7 +16,7 @@ ADD . /var/app
 RUN bundle install
 
 # Expose port
-EXPOSE 4000
+EXPOSE 4000 8080
 
 # Run our app
-CMD bundle exec jekyll serve --host 0.0.0.0 --port 4000
+CMD bundle exec jekyll serve --config _config_dev.yml --host 0.0.0.0 --port 4000 --trace --livereload --livereload-port 8080 --force_polling

@@ -33,6 +33,46 @@ OR
 
 (Option #2) Open File Explorer and go into cfraij.com folder, and then right-click "run-docker.bat" and select  "Run as administrator"
 
+
+## Troubleshooting
+
+If Docker is running and the app is not available at localhost:4000, then here are some ways to help troubleshoot and get it fixed.
+
+**Check if the Docker container is running:**
+
+```bash
+docker compose ps
+```
+
+**Restart the container:**
+
+```bash
+docker compose down
+docker compose up -d
+```
+
+**Stream logs:**
+
+```bash
+docker compose logs -f --tail=100
+```
+
+**Rebuild Docker image:**
+
+```bash
+docker compose build
+```
+
+**Clear old cache:**
+
+Your cache may be in a bad state. In this case, you should delete it and restart the Docker container.
+
+```bash
+rm -rf .jekyll-cache/
+rm -rf _site/
+```
+
+
 ## To access admin console
 
 Open browser and navigate to url:
